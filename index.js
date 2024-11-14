@@ -1,6 +1,6 @@
 const jsonServer = require('json-server');
 const server = jsonServer.create();
-const router = jsonServer.router('db.json'); // Chỉ định file JSON chứa database
+const router = jsonServer.router('database.json');
 const middlewares = jsonServer.defaults();
 
 server.use(middlewares);
