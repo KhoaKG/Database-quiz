@@ -1,0 +1,563 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullname": "Nguyen Thi A",
+      "email": "nguyenthia@gmail.com",
+      "password": "nguyenthia",
+      "token": "bkopoDSAoalOP234alo07"
+    },
+    {
+      "id": 2,
+      "fullname": "Do Thi B",
+      "email": "dothib@gmail.com",
+      "password": "dothib",
+      "token": "ksnkaOI2o123pLIINL24"
+    },
+    {
+      "id": 3,
+      "fullname": "Ngo Van C",
+      "email": "ngovanc@gmail.com",
+      "password": "ngovanc",
+      "token": "lmLIlk212lLKNkjm12"
+    },
+    {
+      "id": 4,
+      "fullname": "Le Van D",
+      "email": "levand@gmail.com",
+      "password": "levand",
+      "token": "mlak223KJm2LJnkdsas2"
+    },
+    {
+      "id": 5,
+      "fullname": "Nguyen Van E",
+      "email": "nguyenvane@gmail.com",
+      "password": "nguyenvane",
+      "token": "oqlKLM2kl2LK2lmmla98a"
+    },
+    {
+      "fullname": "Nguyen Thi F",
+      "email": "nguyenthif@gmail.com",
+      "password": "nguyenthif",
+      "token": "NsITKjFywkGTj7UZUCOjo",
+      "id": 6
+    },
+    {
+      "name": "Nguyễn Nhật Khoa",
+      "value": "nhatkhoa19102005@gmail.com",
+      "fullname": "123",
+      "token": "Pg1a5LZnqdBZIx03XkE6f",
+      "id": 7
+    }
+  ],
+  "topics": [
+    {
+      "id": 1,
+      "name": "HTML5",
+      "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa deserunt voluptatem neque dolorum eaque sequi ea sint praesentium voluptate odit, exercitationem magni cum tenetur a doloribus quae nam assumenda ullam!"
+    },
+    {
+      "id": 2,
+      "name": "CSS3",
+      "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa deserunt voluptatem neque dolorum eaque sequi ea sint praesentium voluptate odit, exercitationem magni cum tenetur a doloribus quae nam assumenda ullam!"
+    },
+    {
+      "id": 3,
+      "name": "Javascript",
+      "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa deserunt voluptatem neque dolorum eaque sequi ea sint praesentium voluptate odit, exercitationem magni cum tenetur a doloribus quae nam assumenda ullam!"
+    },
+    {
+      "id": 4,
+      "name": "ReactJS",
+      "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa deserunt voluptatem neque dolorum eaque sequi ea sint praesentium voluptate odit, exercitationem magni cum tenetur a doloribus quae nam assumenda ullam!"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "topicId": 1,
+      "question": "HTML là viết tắt của ...?",
+      "answers": [
+        "Hyperlinks and Text Markup Language",
+        "Home Tool Markup Language",
+        "Hyper Text Markup Language"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 2,
+      "topicId": 1,
+      "question": "Ai là người đưa ra các tiêu chuẩn web?",
+      "answers": [
+        "Tổ chức Word Wide Web Consortium (W3C)",
+        "Apple",
+        "Google",
+        "Microsoft"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 3,
+      "topicId": 1,
+      "question": "Chọn thẻ HTML đúng nhất cho định dạng tiêu đề lớn nhất?",
+      "answers": [
+        "<h6>",
+        "<h1>",
+        "<head>",
+        "<heading>"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 4,
+      "topicId": 1,
+      "question": "Thẻ nào dùng để xuống dòng trong HTML?",
+      "answers": [
+        "<enter>",
+        "<br>",
+        "<break>",
+        "<lb>"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 5,
+      "topicId": 1,
+      "question": "Chọn thẻ HTML chính xác dùng để xác định văn bản quan trọng",
+      "answers": [
+        "<important>",
+        "<strong>",
+        "<b>",
+        "<i>"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 6,
+      "topicId": 2,
+      "question": "CSS là viết tắt của?",
+      "answers": [
+        "Creative Style Sheets",
+        "Computer Style Sheets",
+        "Cascading Style Sheets",
+        "Colorful Style Sheets"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 7,
+      "topicId": 2,
+      "question": "Thuộc tính nào định nghĩa CSS ngay trong 1 tag?",
+      "answers": [
+        "font",
+        "class",
+        "style",
+        "styles"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 8,
+      "topicId": 2,
+      "question": "Đặt dòng liên kết với file CSS ở vùng nào trong file HTML?",
+      "answers": [
+        "Trong thẻ <body>",
+        "Trong thẻ <head>",
+        "Ở cuối file HTML",
+        "Ở đầu file HTML"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 9,
+      "topicId": 2,
+      "question": "Đâu là những tag dành cho việc tạo bảng?",
+      "answers": [
+        "<table><tr><td>",
+        "<thead><body><tr>",
+        "<table><head><tfoot>",
+        "<table><tr><tt>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 10,
+      "topicId": 2,
+      "question": "Đâu là tag tạo ra 1 danh sách đứng đầu bằng số",
+      "answers": [
+        "<ul>",
+        "<list>",
+        "<ol>",
+        "<dl>"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 11,
+      "topicId": 3,
+      "question": "Trong Javascript sự kiện OnUnload thực hiện khi nào?",
+      "answers": [
+        "Khi bắt đầu chương trình chạy",
+        "Khi click chuột",
+        "Khi kết thúc một chương trình",
+        "Khi di chuyển chuột qua"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 12,
+      "topicId": 3,
+      "question": "Trong Javascript sự kiện Onblur thực hiện khi nào?",
+      "answers": [
+        "Khi một đối tượng trong form mất focus",
+        "Khi một đối tượng trong form có focus",
+        "Khi di chuyển con chuột qua form",
+        "Khi click chuột vào nút lệnh"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 13,
+      "topicId": 3,
+      "question": "Trong Javascript sự kiện OnMouseOver thực hiện khi nào?",
+      "answers": [
+        "Khi một đối tượng trong form mất focus",
+        "Khi một đối tượng trong form có focus",
+        "Khi di chuyển con chuột qua một đối tượng trong form",
+        "Khi click chuột vào nút lệnh"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 14,
+      "topicId": 3,
+      "question": "Trong Javascript sự kiện Onclick xảy ra khi nào?",
+      "answers": [
+        "Khi một đối tượng trong form mất focus",
+        "Khi một đối tượng trong form có focus",
+        "Khi click chuột vào một đối tượng trong form",
+        "Khi click chuột vào nút lệnh"
+      ],
+      "correctAnswer": 4
+    },
+    {
+      "id": 15,
+      "topicId": 3,
+      "question": "Trong Javascript sự kiện Onchange thực hiện khi nào?",
+      "answers": [
+        "Khi một đối tượng trong form mất focus",
+        "Khi một đối tượng trong form có focus",
+        "Xảy ra khi giá trị của một trường trong form được người dùng thay đổi",
+        "Khi click chuột vào nút lệnh"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 16,
+      "topicId": 4,
+      "question": "ReactJS được phát triển bởi công ty nào?",
+      "answers": [
+        "Google",
+        "Facebook",
+        "Microsoft",
+        "Amazon"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 17,
+      "topicId": 4,
+      "question": "Thành phần chính của một ứng dụng React là gì?",
+      "answers": [
+        "Module",
+        "Controller",
+        "Service",
+        "Component"
+      ],
+      "correctAnswer": 4
+    },
+    {
+      "id": 18,
+      "topicId": 4,
+      "question": "Dùng câu lệnh nào để tạo một ứng dụng React mới?",
+      "answers": [
+        "npm start react-app",
+        "npx create-react-app",
+        "npm install react-app",
+        "npx init react"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 19,
+      "topicId": 4,
+      "question": "Phương pháp nào dưới đây dùng để truyền dữ liệu từ component cha sang component con?",
+      "answers": [
+        "Props",
+        "State",
+        "Function",
+        "State"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 20,
+      "topicId": 4,
+      "question": "Hook nào được sử dụng để quản lý state trong functional component?",
+      "answers": [
+        "useEffect",
+        "useContext",
+        "useState",
+        "useReducer"
+      ],
+      "correctAnswer": 3
+    }
+  ],
+  "answers": [
+    {
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 0
+        },
+        {
+          "questionId": 2,
+          "answer": 1
+        }
+      ],
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 0
+        },
+        {
+          "questionId": 2,
+          "answer": 0
+        }
+      ],
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 2
+        },
+        {
+          "questionId": 2,
+          "answer": 3
+        }
+      ],
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 0
+        },
+        {
+          "questionId": 2,
+          "answer": 1
+        }
+      ],
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 0
+        },
+        {
+          "questionId": 2,
+          "answer": 0
+        }
+      ],
+      "id": 5
+    },
+    {
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 0
+        },
+        {
+          "questionId": 2,
+          "answer": 0
+        }
+      ],
+      "id": 6
+    },
+    {
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 1
+        },
+        {
+          "questionId": 2,
+          "answer": 1
+        }
+      ],
+      "id": 7
+    },
+    {
+      "userId": 1,
+      "topicId": 1,
+      "answers": [],
+      "id": 8
+    },
+    {
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 0
+        },
+        {
+          "questionId": 2,
+          "answer": 1
+        }
+      ],
+      "id": 9
+    },
+    {
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 0
+        },
+        {
+          "questionId": 2,
+          "answer": 1
+        }
+      ],
+      "id": 10
+    },
+    {
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 0
+        },
+        {
+          "questionId": 2,
+          "answer": 2
+        }
+      ],
+      "id": 11
+    },
+    {
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 0
+        },
+        {
+          "questionId": 2,
+          "answer": 0
+        }
+      ],
+      "id": 12
+    },
+    {
+      "userId": 1,
+      "topicId": 1,
+      "answers": [],
+      "id": 13
+    },
+    {
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 1
+        },
+        {
+          "questionId": 2,
+          "answer": 2
+        }
+      ],
+      "id": 14
+    },
+    {
+      "userId": 15,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 0
+        },
+        {
+          "questionId": 2,
+          "answer": 1
+        }
+      ],
+      "id": 15
+    },
+    {
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 0
+        },
+        {
+          "questionId": 2,
+          "answer": 1
+        }
+      ],
+      "id": 16
+    },
+    {
+      "userId": 1,
+      "topicId": 2,
+      "answers": [
+        {
+          "questionId": 7,
+          "answer": 0
+        },
+        {
+          "questionId": 8,
+          "answer": 1
+        },
+        {
+          "questionId": 9,
+          "answer": 2
+        },
+        {
+          "questionId": 10,
+          "answer": 2
+        }
+      ],
+      "id": 17
+    }
+  ]
+}
